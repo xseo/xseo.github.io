@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>xseo service</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>192.168.15.173/</link>
+    <atom:link href="192.168.15.173/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 11 Nov 2014 14:23:55 -0500</pubDate>
+    <lastBuildDate>Tue, 11 Nov 2014 14:23:55 -0500</lastBuildDate>
+    <generator>Jekyll v2.5.1</generator>
+    
+      <item>
+        <title>Server Codes</title>
+        <description>
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;migrate&lt;/span&gt; 
+  &lt;span class=&quot;n&quot;&gt;rails&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;server&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;$git push heroku master&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;#=&amp;gt; git push origin master&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the irc chat for more info on how to get the most out of &lt;a href=&quot;http://192.168.15.173:3000&quot;&gt;EtsyDemo&lt;/a&gt;. File all bugs/feature requests at irc #DevOps&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 10 Nov 2014 19:40:01 -0500</pubDate>
+        <link>192.168.15.173/jekyll/update/2014/11/10/server_codes.html</link>
+        <guid isPermaLink="true">192.168.15.173/jekyll/update/2014/11/10/server_codes.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Heroku-and-openshift-vs-docker-and-ngrok</title>
+        <description>&lt;p&gt;I have used every framework to deploy my application , and localhost:3000 + ngrok and srvdir is the best option for a linux server.&lt;/p&gt;
+
+&lt;p&gt;Etsydemo also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;migrate&lt;/span&gt; 
+  &lt;span class=&quot;n&quot;&gt;rails&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;server&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;$git push heroku master&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;#=&amp;gt; git push origin master&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the irc chat for more info on how to get the most out of &lt;a href=&quot;http://192.168.15.173:3000&quot;&gt;EtsyDemo&lt;/a&gt;. File all bugs/feature requests at irc #DevOps&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 10 Nov 2014 19:34:14 -0500</pubDate>
+        <link>192.168.15.173/jekyll/update/2014/11/10/Heroku%20and%20openshift%20vs%20docker%20and%20ngrok.html</link>
+        <guid isPermaLink="true">192.168.15.173/jekyll/update/2014/11/10/Heroku%20and%20openshift%20vs%20docker%20and%20ngrok.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
