@@ -1,149 +1,312 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width initial-scale=1">
+    <title>@demisx&mdash;Software patterns and solutions blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/syntax.css" rel="stylesheet">
+    <link href="/css/my.css" rel="stylesheet">
+    <link rel="alternate" type="application/rss+xml" title="P/MEAN and co." href="http://demisx.github.io/feed.xml">
 
-  <title>xseo service</title>
-  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-">
-
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="192.168.15.173/">
-  <link rel="alternate" type="application/atom+xml" title="xseo service" href="192.168.15.173/feed.xml" />
-</head>
-
-
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <script src="/js/twitter.js"></script>
+  </head>
   <body>
+    <header>
+      <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="/">
+              <img src="/images/thumb_demisx.jpg" style="width:50px;float:left" class="visible-xs img-responsive" alt="demisx avatar">
+              <span class="navbar-brand">P/MEAN and co.</span>
+            </a>
+          </div>
 
-    <header class="site-header">
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="/">Home</a></li>
+              <!-- <li><a href="/contact/xxx">Contact</a></li> -->
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/feed.xml"><i class="fa fa-rss fa-lg"></i> RSS</a></li>
+              <li><a href="https://github.com/demisx" rel="me" target="_blank"><i class="fa fa-github fa-lg"></i> GitHub</a></li>
+              <li><a href="https://twitter.com/demisx1" rel="me" target="_blank"><i class="fa fa-twitter fa-lg"></i> Twitter</a></li>
+            </ul>
+          </div><!--/.navbar-collapse -->
+        </div>
+      </nav>
+    </header>
 
-  <div class="wrapper">
-
-    <a class="site-title" href="/">xseo service</a>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
-
-      <div class="trigger">
-        
-          
-          <a class="page-link" href="/about/">About</a>
-          
-        
-          
-        
-          
-        
-          
-        
+    <section id="main" class="container">
+      
+      <div class="container">
+        <div class="row">
+          <div id="about-me" class="col-xs-12  col-sm-3 col-sm-push-9 col-md-2 col-md-push-10 hidden-xs">
+            <div class="thumbnail">
+              <img src="/images/thumb_demisx.jpg" alt="demisx avatar">
+              <div class="caption small">
+                <b><u>#inspect:</u></b>
+                <p>I am Dmitri Moore, full stack programmer. I've been coding for almost 
+                2 decades now. I've seen many frameworks going from
+                super popular to fairly forgotten. So far, P/MEAN is my favorite stack:<br/>
+                <button type="button" class="btn btn-default btn-sm"><u>P</u>ostgreSQL</button>
+                <button type="button" class="btn btn-default btn-sm"><u>M</u>ongoDB</button>
+                <button type="button" class="btn btn-default btn-sm"><u>E</u>xpress</button>
+                <button type="button" class="btn btn-default btn-sm"><u>A</u>ngularJS</button>
+                
+                <button type="button" class="btn btn-default btn-sm"><u>N</u>ode.js</button>
+                <br/>Let's see how long this
+                one is gonna stick around. <i class="fa fa-smile-o"></i></p>
+              </div> 
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-sm-pull-3 col-md-10 col-md-pull-2" id="main-content">
+            <div id="main-content">
+  
+    <div class="row">
+      <div><a href="/git/2014/11/02/git-prune-local-tags-dont-exist-remote.html"><h2>How to prune local git tags that don't exist on remote&nbsp;&raquo;</h2></a></div>
+      <hr>
+      <div><span class="small text-muted">November 02, 2014</span></div>
+      <div>
+        <p>
+          <p>As of git <code>1.9.4</code>, it appears that there is no easy way to remove local tags
+that don&#39;t exist on remote (a.k.a &quot;stale tags&quot;). According 
+to <code>--prune</code> option in <code>git fetch</code> <a href="http://git-scm.com/docs/git-fetch">documentaiton</a> :</p>
+ <a href="/git/2014/11/02/git-prune-local-tags-dont-exist-remote.html" class="lead">Read&nbsp;the&nbsp;entire&nbsp;post...</a>
+        </p>
       </div>
-    </nav>
-
-  </div>
-
-</header>
-
-
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Nov 10, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/jekyll/update/2014/11/10/server_codes.html">Server Codes</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Nov 10, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/jekyll/update/2014/11/10/Heroku%20and%20openshift%20vs%20docker%20and%20ngrok.html">Heroku-and-openshift-vs-docker-and-ngrok</a>
-        </h2>
-      </li>
-    
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
-
+    </div>
+  
+    <div class="row">
+      <div><a href="/angularjs,/unit/testing/2014/10/28/unit-testing-angular-child-directive-that-requires-parent.html"><h2>Unit testing AngularJS child directive that requires parent directive&nbsp;&raquo;</h2></a></div>
+      <hr>
+      <div><span class="small text-muted">October 28, 2014</span></div>
+      <div>
+        <p>
+          <p>In AngularJS we can have one or more directives communicate with each other. This 
+gives us an ability to create web components (hello AngularJS 2.0) that are built 
+from multiple directives. In order to for a directive A to access the API methods 
+defined in a controller of a directive B, the latter needs to define the <code>require:</code> 
+property with a value set to the name of directive A and specify how the search
+should be performed (in my example, I prefix directive name with <code>^^</code>, so the
+search for controlelr is done on the parent DOM elements only). The compilation 
+of directive B will fail if directive A controller cannot be found in the &quot;search path&quot;.</p>
+ <a href="/angularjs,/unit/testing/2014/10/28/unit-testing-angular-child-directive-that-requires-parent.html" class="lead">Read&nbsp;the&nbsp;entire&nbsp;post...</a>
+        </p>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div><a href="/angularjs/2014/09/14/angular-what-goes-where.html"><h2>AngularJS 1.x WGW (What Goes Where) guide&nbsp;&raquo;</h2></a></div>
+      <hr>
+      <div><span class="small text-muted">September 14, 2014</span></div>
+      <div>
+        <p>
+          <p>A few months ago, I finally had a chance to get my hands on the so-much-talked-about
+<a href="https://angularjs.org/">AngularJS</a> framework and I really digged it. In fact, 
+I like it so much that I am 100% sure this framework will stay ahead of others 
+for a long time. Well, in our world this means for at least another year or two.</p>
+ <a href="/angularjs/2014/09/14/angular-what-goes-where.html" class="lead">Read&nbsp;the&nbsp;entire&nbsp;post...</a>
+        </p>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div><a href="/rails-admin/2014/05/07/authentication-rails-admin-without-devise.html"><h2>Basic authentication with Rails Admin without Devise&nbsp;&raquo;</h2></a></div>
+      <hr>
+      <div><span class="small text-muted">May 07, 2014</span></div>
+      <div>
+        <p>
+          <p><a href="https://github.com/sferik/rails_admin">RailsAdmin</a> is a very nice simple gem
+that allows you to manage data in models via a simple to use GUI. By default, it
+comes without any authentication enabled, so anyone can access the <code>/admin</code> URL.
+It does allow you to integrate with popular authentication frameworks, though,
+like devise and CanCan, however, I find it to be an overkill in small simple 
+projects. In case of the latter, I simply opt in for basic authentication over
+HTTPS.</p>
+ <a href="/rails-admin/2014/05/07/authentication-rails-admin-without-devise.html" class="lead">Read&nbsp;the&nbsp;entire&nbsp;post...</a>
+        </p>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div><a href="/rails/2014/03/16/auto-reload-classes-custom-directories.html"><h2>How to have Rails auto reload classes in custom directories under app/&nbsp;&raquo;</h2></a></div>
+      <hr>
+      <div><span class="small text-muted">March 16, 2014</span></div>
+      <div>
+        <p>
+          <p>Over time, your rails models go from being a super model to being fat and eventually end up
+obese waiting any time for a heart attack to choke your app. When refactoring such models, I really
+like and follow the approach described by Code Climate in <a href="http://blog.codeclimate.com/blog/2012/10/17/7-ways-to-decompose-fat-activerecord-models/">7 Patterns to Refactor Fat ActiveRecord Models</a>.</p>
+ <a href="/rails/2014/03/16/auto-reload-classes-custom-directories.html" class="lead">Read&nbsp;the&nbsp;entire&nbsp;post...</a>
+        </p>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div><a href="/rails/2014/03/02/where-store-additional-rails-project-files.html"><h2>Where to store Rails project support files&nbsp;&raquo;</h2></a></div>
+      <hr>
+      <div><span class="small text-muted">March 02, 2014</span></div>
+      <div>
+        <p>
+          <p>When we generate a new Rails project, it spits out at us a nice well thought-out folder structure 
+with a particular place for each code component should go to. App code goes into <code>/app</code> folder, 
+configurations into <code>/config</code>, log files int <code>/log</code> and so forth. We love it and it works great 
+until you come across a situation when you&#39;ve got other files that you also need to 
+associate with the project, but your generated rails app doesn&#39;t seem to have a folder for. </p>
+ <a href="/rails/2014/03/02/where-store-additional-rails-project-files.html" class="lead">Read&nbsp;the&nbsp;entire&nbsp;post...</a>
+        </p>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div><a href="/rails-api/2014/02/18/configure-accept-headers-cors.html"><h2>How to Configure CORS Accept Headers in Rails API Application&nbsp;&raquo;</h2></a></div>
+      <hr>
+      <div><span class="small text-muted">February 18, 2014</span></div>
+      <div>
+        <p>
+          <p>You&#39;ve finally realized the value of SOA 
+(<a href="http://en.wikipedia.org/wiki/Service-oriented_architecture">Service Oriented Architecturee</a>) 
+and decided to move all of your dynamic functionality into an independent service layer. Smart!</p>
+ <a href="/rails-api/2014/02/18/configure-accept-headers-cors.html" class="lead">Read&nbsp;the&nbsp;entire&nbsp;post...</a>
+        </p>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div><a href="/tomcat/connector/2014/02/06/install-mod_jk-mac-os-x.html"><h2>How to Compile Tomcat mod_jk connector on Mac OS X Mavericks&nbsp;&raquo;</h2></a></div>
+      <hr>
+      <div><span class="small text-muted">February 06, 2014</span></div>
+      <div>
+        <p>
+          <p>In my ongoing quest of porting apps from Windows to Mac OS X environment, I had to install Tomcat&#39;s <a href="http://tomcat.apache.org/download-connectors.cgi">mod_jk 
+connector</a> to proxy requests from Apache to 
+JBoss application server. This is not my favorite setup, of course, but rather a legacy environment 
+for one of the clients. Everything was going smoothly until mod_jk compilation part. After doing
+some research and reading some blogs, here is these are the steps that finally worked for me:</p>
+ <a href="/tomcat/connector/2014/02/06/install-mod_jk-mac-os-x.html" class="lead">Read&nbsp;the&nbsp;entire&nbsp;post...</a>
+        </p>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div><a href="/ruby-on-rails/2014/01/16/install-postgresql-mac-os-x-homebrew.html"><h2>How to Install PostgreSQL 9 DB on Mac OS X Mavericks with Homebrew&nbsp;&raquo;</h2></a></div>
+      <hr>
+      <div><span class="small text-muted">January 16, 2014</span></div>
+      <div>
+        <p>
+          <p>Just moved from MySQL to PostgreSQL for the new rails apps. I think it is time I try
+something new after being so faithful to MySQL DB for the past X years. My first PostgreSQL
+install didn&#39;t go as smooth as I expected, but wasn&#39;t too bad. Here is a summary of the installation
+steps that worked for me (assuming you are using the awesome <a href="http://brew.sh/">Homebrew</a> package 
+manager).</p>
+ <a href="/ruby-on-rails/2014/01/16/install-postgresql-mac-os-x-homebrew.html" class="lead">Read&nbsp;the&nbsp;entire&nbsp;post...</a>
+        </p>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div><a href="/ruby-on-rails/2014/01/15/unable-find-matching-line-from-backtrace.html"><h2>Error: Unable to Find Matching Line from Backtrace&nbsp;&raquo;</h2></a></div>
+      <hr>
+      <div><span class="small text-muted">January 15, 2014</span></div>
+      <div>
+        <p>
+          <p>You&#39;ve just upgraded to Ruby 2.1 and Ruby is hitting you back with this error?</p>
+ <a href="/ruby-on-rails/2014/01/15/unable-find-matching-line-from-backtrace.html" class="lead">Read&nbsp;the&nbsp;entire&nbsp;post...</a>
+        </p>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div><a href="/ruby-on-rails/2014/01/14/activate-hirb-output-in-rails-pry-console.html"><h2>Activate Hirb Formatted Output in Pry-enabled Rails Console&nbsp;&raquo;</h2></a></div>
+      <hr>
+      <div><span class="small text-muted">January 14, 2014</span></div>
+      <div>
+        <p>
+          <p>So, you&#39;ve finally found some free time to replace your default Rails console with <a href="https://github.com/pry/pry">Pry</a> 
+and now you want to see nice <a href="https://github.com/cldwalker/hirb">Hirb</a> formatted output 
+instead of the default IRB one? I hear you. To achieve that just add the following lines to your local <code>~/.pryrc</code> file 
+(e.g. /home/dmoore/.pryrc)</p>
+ <a href="/ruby-on-rails/2014/01/14/activate-hirb-output-in-rails-pry-console.html" class="lead">Read&nbsp;the&nbsp;entire&nbsp;post...</a>
+        </p>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div><a href="/jekyll/2014/01/13/improve-code-highlighting-in-jekyll.html"><h2>Improve Code Highlighting in a Jekyll-based Blog Site&nbsp;&raquo;</h2></a></div>
+      <hr>
+      <div><span class="small text-muted">January 13, 2014</span></div>
+      <div>
+        <p>
+          <p>If you don&#39;t mind getting your hands on &quot;HTML-like&quot; type of code and looking around for a way to launch a 
+simple blog website paired with free hosting, then <a href="http://jekyllrb.com">Jekyll</a></a> 
+should definitely be on your evaluation list. It&#39;s open-source, text based and follows baking 
+CMS principle by generating a static site from pre-written markup files. Pair it with free hosting 
+from <a href="http://pages.github.com">GitHub Pages</a>, comments from <a href="http://disqus.com">Disqus</a> and you have 
+yourself a very flexible blogging platform without required dependencies on a database and third party 
+module/plugins.</p>
+ <a href="/jekyll/2014/01/13/improve-code-highlighting-in-jekyll.html" class="lead">Read&nbsp;the&nbsp;entire&nbsp;post...</a>
+        </p>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div><a href="/rails/2014/01/02/livereload-cannot-reload-bettererrors-page.html"><h2>Livereload Doesn't Reload BetterErrors Page&nbsp;&raquo;</h2></a></div>
+      <hr>
+      <div><span class="small text-muted">January 02, 2014</span></div>
+      <div>
+        <p>
+          <p>My livereload was working fine until I&#39;ve added the better_errors gem. Then, each time when 
+an error page was shown by better_errors, I had to manually hit Command+R to reload that page in
+order to see the changes I&#39;ve made. Needless to say, this was quite inconvenient in the development. </p>
+ <a href="/rails/2014/01/02/livereload-cannot-reload-bettererrors-page.html" class="lead">Read&nbsp;the&nbsp;entire&nbsp;post...</a>
+        </p>
+      </div>
+    </div>
+  
 </div>
 
+          </div>
+        </div>
       </div>
-    </div>
-
-    <footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">xseo service</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-          <li>xseo service</li>
-          <li><a href="mailto:3dpr@inbox.ru">3dpr@inbox.ru</a></li>
-        </ul>
+        
       </div>
+    </section>
 
-      <div class="footer-col  footer-col-2">
-        <ul class="social-media-list">
-          
-          <li>
-            <a href="https://github.com/jekyll">
-              <span class="icon  icon--github">
-                <svg viewBox="0 0 16 16">
-                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
-                </svg>
-              </span>
-
-              <span class="username">jekyll</span>
-            </a>
-          </li>
-          
-
-          
-          <li>
-            <a href="https://twitter.com/jekyllrb">
-              <span class="icon  icon--twitter">
-                <svg viewBox="0 0 16 16">
-                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
-                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
-                </svg>
-              </span>
-
-              <span class="username">jekyllrb</span>
-            </a>
-          </li>
-          
-        </ul>
+    <footer>
+      <div class="container">
+        <hr>
+        <div id="copyright">
+          <p>&copy; 2014 All rights reserved.</p>
+        </div>
       </div>
+    </footer>
 
-      <div class="footer-col  footer-col-3">
-        <p class="text">Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</p>
-      </div>
-    </div>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
 
-  </div>
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-</footer>
-
-
+      ga('create', 'UA-47168884-1', 'demisx.github.io');
+      ga('send', 'pageview');
+    </script>
   </body>
-
 </html>
